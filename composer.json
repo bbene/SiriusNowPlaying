@@ -1,0 +1,8 @@
+{
+    "require" : {
+        "hipchat/hipchat-php": "dev-master",
+        "fabpot/goutte": "1.0.*@dev",
+        "sabre/xml" : "master-dev"
+    }
+
+}

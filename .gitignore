@@ -1,0 +1,9 @@
+.DS_Store
+
+.idea
+
+debug.php
+composer.lock
+
+/vendor/
+/composer.phar
