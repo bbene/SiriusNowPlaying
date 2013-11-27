@@ -1,5 +1,7 @@
 <?php
 
+namespace Bbene;
+
 class SiriusNowPlaying
 {
     protected $hipchat_room;
@@ -46,7 +48,7 @@ class SiriusNowPlaying
                 echo PHP_EOL;
                 // New song.  Update current_playing and send alert.
                 $this->current_playing = $now_playing;
-                $this->hc->message_room($this->hipchat_room, 'SiriusXM', $this->current_playing);
+                //$this->hc->message_room($this->hipchat_room, 'SiriusXM', $this->current_playing);
                 echo $this->current_playing . PHP_EOL;
             }
 
