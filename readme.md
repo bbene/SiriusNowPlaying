@@ -5,7 +5,7 @@ users on the current track.
 
 #Usage
 1. Clone the repository 
-    `git clone https://git@github.com:bbene/SiriusNowPlaying.git`
+    `git clone git@github.com:bbene/SiriusNowPlaying.git`
 2. cd to the project
     `cd SiriusNowPlaying`
 3. Edit main.php with your HipChat API key and channel.
