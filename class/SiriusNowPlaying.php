@@ -16,6 +16,11 @@ class SiriusNowPlaying
         $this->current_playing = '';
     }
 
+    public function get_now_playing()
+    {
+        return $this->current_playing;
+    }
+
     /**
      * Daemon.  Updates every 30 seconds.
      */
