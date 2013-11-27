@@ -8,7 +8,7 @@ users on the current track.
     `git clone https://git@github.com:bbene/SiriusNowPlaying.git`
 2. cd to the project
     `cd SiriusNowPlaying`
-3. Edit main.php with your HipChat API key.
+3. Edit main.php with your HipChat API key and channel.
 4. Run composer `composer install`
 5. Run the daemon `php main.php`
 
